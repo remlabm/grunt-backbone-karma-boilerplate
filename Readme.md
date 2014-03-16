@@ -6,3 +6,4 @@ $ grunt serve
 PHPStorm
 - install Karma plugin
 - Add Runner for Karma
+(phpstorm-config.png)

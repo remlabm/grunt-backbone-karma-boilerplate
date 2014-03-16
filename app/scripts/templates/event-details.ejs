@@ -1,0 +1,16 @@
+<h3><%= name %></h3>
+<h5><%= moment( date ).format('ddd, MMM Do @ h:mm a ') %></h5>
+
+<address>
+    <strong>Location:</strong>
+    <%= location.dds %>
+</address>
+
+<ul class="list-group">
+    <% _.each( beacons, function( beacon ){ %>
+        <li class="list-group-item">
+            <%= beacon._user %>
+            <span class="badge"></span>
+        </li>
+    <% }) %>
+</ul>

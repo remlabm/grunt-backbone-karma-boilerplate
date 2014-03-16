@@ -1,0 +1,14 @@
+[
+  {
+    "_id": 1,
+    "name": "Event1"
+  },
+  {
+    "_id": 2,
+    "name": "Event2"
+  },
+  {
+    "_id": 3,
+    "name": "Event3"
+  }
+]
